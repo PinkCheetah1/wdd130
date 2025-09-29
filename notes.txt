@@ -1,0 +1,9 @@
+Portal Page = Portfolio Page (portal to all your projects)
+
+Wireframe = Drawn out design for the page. Where things are, not big details. 
+
+Shift + Alt + Down = Copy line to next line
+
+{ = Squiggle
+} = Jiggle
+Don't get confused. Jiggle all your Squiggles. 
