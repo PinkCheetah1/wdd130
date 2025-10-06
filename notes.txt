@@ -7,3 +7,11 @@ Shift + Alt + Down = Copy line to next line
 { = Squiggle
 } = Jiggle
 Don't get confused. Jiggle all your Squiggles. 
+
+Little trick for CSS Layout visual guides: 
+- Give your boxes an outline (not border - you are less likely to use outline, probably)
+- Have a global variable for the color of that outline
+- Make that outline 0% opacity when you don't want to see it
+- Increase opacity when you need to see the outlines
+
+When working with scalability, is it better to use min/max or %?

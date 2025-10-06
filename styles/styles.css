@@ -1,0 +1,46 @@
+
+:root {
+    --dark1-color: #111827;
+    --dark2-color: #374151;
+    --text-light-color: #F9FAFB;
+    --gold-accent-color: #EAB308;
+    --purple-accent-color: #A855F7;
+
+}
+
+body { /* This is called a Selector */
+    background: #374151;
+    color: var(--text-light-color);
+}
+
+#wrapper{
+    width: 900px;
+    height: 1000px;
+    margin: auto;
+    background: var(--dark1-color)
+}
+
+header div img{
+    float: left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--purple-accent-color)
+}
+
+nav a {
+    margin: 0 auto;
+}
+
+nav a:hover {
+    background-color: var(--gold-accent-color);
+}
+
+div.hero {
+    background: url(../images/techy_background.png);
+    background-size: 100%   ;
+    height: 500px;
+}
