@@ -1,0 +1,133 @@
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #396E94   ;
+  --secondary-color: #78C5D7 ;
+  --accent1-color: #E7C24F;
+  --accent2-color: #28965A;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Allan", Tahoma, sans-serif;
+  --paragraph-font: Arial, Tahoma, sans-serif;
+
+  --link-background-initial: var(--accent2-color);
+  --link-background-hover: var(--accent1-color);
+  --link-text-initial: white;
+  --link-text-hover: var(--accent2-color);
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+
+/* Header */
+header {
+    background-color: var(--primary-color);
+}
+
+nav a {
+    color: var(--link-text-initial);
+    text-align: center;
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+}
+
+nav a:hover {
+    color: var(--link-text-hover);
+    background-color: var(--link-background-hover);
+}
+
+#logo {
+    width: 80px;
+}
+
+/* Hero */
+#hero-img {
+    width: 100%;
+}
+
+.home-title {
+    color: black;
+    font-family: var(--heading-font);
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    font-family: var(--paragraph-font);
+}
+
+.button-box {
+    text-align: center;
+}
+
+/* main */
+
+main section {
+    text-align: center;
+}
+
+.icon {
+    width: 80px;
+}
+
+#background {
+    height: 725px;
+    background-color: white;
+}
+
+.msg {
+    background-color: white;
+}
+
+.msg h2 {
+    color: black;
+    font-family: var(--heading-font);
+}
+
+.msg p {
+    color: #28965A;
+    font-family: var(--paragraph-font);
+}
+
+.book, .join {
+    background-color: var(--link-background-initial);
+    color: var(--link-text-initial);
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+}
+
+.book:hover, .join:hover {
+    background-color: var(--link-background-hover);
+    color: var(--link-text-hover);
+}
+
+h2 {
+    color: black;
+    font-family: var(--heading-font);
+}
+
+/* footer */
+footer {
+    background-color: var(--secondary-color);
+    color: black;
+}
+
+footer a {
+    color: var(--link-text-initial);
+    text-decoration: none;
+    font-family: var(--paragraph-font);
+}
+
+footer a:hover {
+    color: var(--link-text-hover);
+    text-decoration: underline;
+}
+
+footer p {
+    font-size: 1.2em;
+    font-family: var(--paragraph-font);
+}
