@@ -45,3 +45,70 @@ body {
   box-shadow: 5px 5px 0px black;
   min-height: 400px;
 }
+
+
+/* Table */
+table.cinereousTable {
+  border: 6px solid #696969;
+  background-color: #F0F0F0;
+  width: 100%;
+  text-align: center;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+table.cinereousTable td, table.cinereousTable th {
+  border: 1px solid #696969,;
+  padding: 4px 4px;
+}
+table.cinereousTable tbody td {
+  font-size: 13px;
+}
+table.cinereousTable thead {
+  background: #1e2124;
+  background: linear-gradient(to bottom, #696969, hsl(210, 10%, 13%));
+}
+table.cinereousTable thead th {
+  font-size: 17px;
+  font-weight: bold;
+  color: #F0F0F0;
+  text-align: left;
+  border-left: 2px solid #696969,;
+}
+table.cinereousTable thead th:first-child {
+  border-left: none;
+}
+
+table.cinereousTable tfoot {
+  font-size: 16px;
+  font-weight: bold;
+  color: #F0F0F0;
+  background: #1e2124;
+  background: linear-gradient(to bottom, #696969, #1e2124);
+}
+table.cinereousTable tfoot td {
+  font-size: 16px;
+}
+
+/* Form */
+
+form {
+  display: grid;
+  grid-template-columns: 75px 1fr;
+  grid-gap: 5px;
+  max-width: 500px;
+  margin: auto;
+}
+
+form label {
+  justify-self: right;
+}
+
+form input {
+  background-color: rgb(239, 239, 239);
+}
+
+form #submit {
+  grid-area: 5 / 1 / 6 / 3;
+  width: auto;
+  margin: 0 auto;
+
+}

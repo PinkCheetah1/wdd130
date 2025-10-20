@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Favorite Devotionals</title>
   <link rel="stylesheet" href="styles/styles.css" />
 </head>
+
 <body>
   <div class="container">
     <header class="header">
@@ -16,9 +18,61 @@
     <main>
       <div class="content-box">
         <!-- Add your devotional content here -->
-         Add your table and your form here.
+        <table class="cinereousTable">
+          <thead>
+            <tr>
+              <th>Speaker</th>
+              <th>Title</th>
+              <th>Location</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tfoot>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tfoot>
+          <tbody>
+            <tr>
+              <td>David A Bednar</td>
+              <td>Is it the Holy Ghost, or Just Me?</td>
+              <td>Provo MTC</td>
+              <td>2009</td>
+            </tr>
+            <tr>
+              <td>Brad Wilcox</td>
+              <td>His Grace is Sufficient</td>
+              <td>BYU</td>
+              <td>2011</td>
+            </tr>
+            <tr>
+              <td>Jeffrey R Holland</td>
+              <td>"Cast Not Away Therefore Your Confidence"</td>
+              <td>BYU</td>
+              <td>1999</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h1>Submit your Favorite Devo</h1>
+        <form>
+          <label for="Speaker">Speaker</label>
+          <input type="text" id="Speaker" name="">
+          <label for="Title">Title</label>
+          <input type="text" id="Title" name="">
+          <label for="Location">Location</label>
+          <input type="text" id="Location" name="">
+          <label for="Year">Year</label>
+          <input type="text" id="Year" name="">
+          <input type="submit" id="submit" value="Submit Your Devo">
+        </form>
+
       </div>
     </main>
   </div>
 </body>
+
 </html>
